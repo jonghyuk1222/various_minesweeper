@@ -167,7 +167,7 @@ class Minesweeper:
         self.frame.after(100, self.updateTimer)
 
     def getNeighbors(self, x, y):
-        if self.mode == 0 or 3:
+        if self.mode == 0:
             neighbors = []
             coords = [
                 {"x": x-1,  "y": y-1},  
