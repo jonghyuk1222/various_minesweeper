@@ -123,7 +123,7 @@ class Minesweeper:
         
         
     def gameMode(self):
-        self.mode = simpledialog.askinteger("지뢰찾기", "모드(0 : 일반, 1 : 십자, 2 : 체스):", initialvalue=0)
+        self.mode = simpledialog.askinteger("지뢰찾기", "모드(0 : 일반, 1 : 십자, 2 : 나이트):", initialvalue=0)
         
     def getDifficulty(self):
         self.difficulty = simpledialog.askinteger("지뢰찾기", "난이도(0 : 쉬움, 1 : 보통, 2 : 어려움):", initialvalue=0)
